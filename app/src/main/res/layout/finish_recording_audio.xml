@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#E7A9A1"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/back_symbol"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/back_symbol"/>
+
+    <ImageView
+        android:id="@+id/image_finish_recording"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/record_finish"/>
+
+    <TextView
+        android:id="@+id/text_fantastic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_finish_recording"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:text="@string/fantastic"
+        android:textColor="#E7A9A1"/>
+
+    <Button
+        android:id="@+id/button_check_record"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/go_check"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

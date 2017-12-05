@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Final.Project.Tang.Daiyi</string>
+
+    <string name="hows_your_day">How was your day?</string>
+    <string name="add_a_great_photo">Add a great photo!</string>
+    <string name="tell_me_a_story">Tell me a story</string>
+    <string name="check_today">Check Today</string>
+
+    <string name="looking_forward_to_story">Looking forward to your story!</string>
+    <string name="text_tap_to_talk">Start Recording</string>
+    <string name="done_talk">DONE!</string>
+
+    <string name="fantastic">Fantastic!</string>
+    <string name="go_check">GO CHECK!</string>
+
+    <string name="my_wonderful_today">My Wonderful Today!</string>
+
+    <string name="delete">DELETE</string>
+    <string name="share_with_my_friends">Share with my friends!</string>
+
+    <string name="photo_album">Photos</string>
+    <string name="add_photo">Add</string>
+
+    <string name="add">ADD!</string>
+
+    <string name="date">Apr 13 2017</string>
+
+
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+
+    <string-array name="days_sunday_array">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+
+    <string name="facebook_app_id">1</string>
+
+
+</resources>

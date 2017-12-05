@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5C5C5">
+
+    <ImageView
+        android:id="@+id/button_cancel"
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:src="@drawable/cancel_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/button_label_delete"
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="65dp"
+        android:src="@drawable/delete_button"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

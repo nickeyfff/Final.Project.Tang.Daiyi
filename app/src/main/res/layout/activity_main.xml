@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itp341.tang.daiyi.finalprojecttangdaiyi.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F2EAE3"/>
+
+    <ImageView
+        android:id="@+id/calender_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/icon"/>
+
+    <TextView
+        android:id="@+id/how_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hows_your_day"
+        android:textSize="33sp"
+        android:textColor="#E7A9A1"
+        android:typeface="sans"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <ImageView
+        android:id="@+id/image_add_photo"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/how_text"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_add_photo"/>
+
+    <TextView
+        android:id="@+id/text_add_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_add_photo"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/add_a_great_photo"
+        android:textSize="17sp"/>
+
+    <ImageView
+        android:id="@+id/image_record_audio"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/text_add_photo"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_record_audio"/>
+
+    <TextView
+        android:id="@+id/text_record_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_record_audio"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tell_me_a_story"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/button_check_today"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="@string/check_today"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="#EED6CF" />
+
+</RelativeLayout>

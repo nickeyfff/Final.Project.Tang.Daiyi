@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#E7A9A1"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/back_symbol"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/back_symbol"/>
+
+    <TextView
+        android:id="@+id/text_looking_forward_to_story"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/looking_forward_to_story"
+        android:textColor="#E7A9A1"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:id="@+id/image_start_talk"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/text_looking_forward_to_story"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/start_talk"/>
+
+    <Button
+        android:id="@+id/text_start_talk"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image_start_talk"
+        android:layout_marginTop="20dp"
+        android:text="@string/text_tap_to_talk"
+        android:textSize="15sp"
+        android:textColor="#4A4A4A"
+        android:background="#F8F8F8"/>
+
+</RelativeLayout>
