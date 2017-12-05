@@ -71,8 +71,12 @@ public class TodayActivityFragment extends Fragment {
 
         List<Moment> moments = MomentSingleton.get(getContext()).getAllMoments();
         List rrrr=new ArrayList();
-        pictureUri=Uri.parse(moments.get(0).getPictureUri());
-        rrrr.add(moments.get(0));
+        if(moments.size()>0){
+            pictureUri=Uri.parse(moments.get(0).getPictureUri());
+            rrrr.add(moments.get(0));
+        }
+
+
         adapter = new MomentListAdapter(getActivity(), R.layout.list_photo_today, rrrr);
         momentList.setAdapter(adapter);
 

@@ -4,6 +4,9 @@ package itp341.tang.daiyi.finalprojecttangdaiyi.application;
 
 import android.app.Application;
 import android.content.Context;
+import android.util.Log;
+
+import java.util.List;
 
 import itp341.tang.daiyi.finalprojecttangdaiyi.model.Moment;
 
@@ -20,6 +23,13 @@ public class App extends Application {
         super.onCreate();
 
         sContext = getApplicationContext();
+
+        //clean database
+        Moment.deleteAll(Moment.class);
+
+        List<Moment> result=Moment.listAll(Moment.class);
+
+        Log.d("APP"," monent listall size："+result.size());
 
 
 

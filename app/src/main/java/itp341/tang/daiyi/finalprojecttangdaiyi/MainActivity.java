@@ -20,13 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
-        //clean database
-        Moment.deleteAll(Moment.class);
-
-        List<Moment> result=Moment.listAll(Moment.class);
-
-        Log.d(TAG," monent listall size："+result.size());
-
 
         setContentView(R.layout.activity_host);
 
